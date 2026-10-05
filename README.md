@@ -1,4 +1,4 @@
-* AirSwitcher
+* The AirSwitcher project 
 
 AirSwitcher is a Linux command-line tool for 802.11 (Wi-Fi) frame capture and analysis. It puts a wireless interface into monitor mode and decodes management, control, and data frames in real time 
 its on  v0.1-alpha — actively in development.
@@ -21,18 +21,18 @@ its on  v0.1-alpha — actively in development.
 - No packet injection support 
 - You cant write the sniffed packets in a .cap file (ill add that soon)
 
-  * GOOD THINGS:
+* GOOD THINGS:
     
-  - It has a user friendly 802.11 packet visualisation so even when you're a beginner you can understand it
-  - All the management frames and control frames are defined by name , the data frames are not all defined but the DHCP , 4 ways handshake and some data types are absolutely defined 
-  - it visualize the source BSSID and the distination BSSID
-  - The sniffer program is made with c++ so fast sniffing with no delay
-  - You can return your interface to managed mode with one click
+- It has a user friendly 802.11 packet visualisation so even when you're a beginner you can understand it
+- All the management frames and control frames are defined by name , the data frames are not all defined but the DHCP , 4 ways handshake and some data types are absolutely defined 
+- it visualize the source BSSID and the distination BSSID
+- The sniffer program is made with c++ so fast sniffing with no delay
+- You can return your interface to managed mode with one click
     
     ## Installation
 ## 0. Install dependencies
 
-### Debian / Ubunt (slopbuntu) / Linux Mint
+### Debian / Ubuntu (slopbuntu) / Linux Mint
 
 ```bash
 sudo apt update
@@ -69,8 +69,8 @@ sudo ldconfig
 ### 2. Clone AirSwitcher
 
 ```bash
-git clone https://github.com/imhamouda/Air-Switcher-Networking-tool.git
-cd Air-Switcher-Networking-tool
+git clone https://github.com/imhamouda/Air-switcher.git
+cd Air-switcher 
 ```
 
 ### 3. Build the ultra fast sniffer 
